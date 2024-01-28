@@ -1,4 +1,4 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 This is a README.md Generator. The user is prompted for information in the command-line about their application repository. The user inputs responses into the command line. These responses generate a README.md with the project title, and the following sections: Description, Table of Conntents, Installation, Usage, License, Contributing, Tests, and Questions.
 
 # Credits
