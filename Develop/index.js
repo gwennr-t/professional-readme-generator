@@ -1,7 +1,7 @@
 // Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMD = require('./Develop/new-README.md');
+const generateMD = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
