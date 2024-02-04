@@ -27,45 +27,46 @@ function renderLicenseSection(license) {
     return `
     # License
     ${license}
-    ${renderLicenseBadge(license)}`;
+    ${renderLicenseBadge(license)}
+    ${renderLicenseLink(license)}`;
   }
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown() {
+function generateMarkdown(answers) {
   return `
-  # ${title}
+  # ${answers.title}
 
-  #Table of Contents
-  -[Description](#Description)
-  -[Installation](#Installation)
-  -[Usage](#Usage)
-  -[Contributing](#Contributing)
-  -[Tests](#Tests)
-  -[License](# License)
-  -[Questions](#Questions)
+  # Table of Contents
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [License](# License)
+  - [Questions](#Questions)
 
-  #Description
-  ${description}
+  # Description
+  ${answers.description}
 
-  #Installation
-  ${installation}
+  # Installation
+  ${answers.installation}
 
-  #Usage
-  ${usage}
+  # Usage
+  ${answers.usage}
 
-  #Contributing
-  ${contributing}
+  # Contributing
+  ${answers.contributing}
 
-  #Tests
-  ${tests}
+  # Testing
+  ${answers.tests}
 
-  #
+  # License
 
-  #Questions
+  # Questions
   Reach out using the following contact information:
-  ${username}
-  ${email}
+  ${answers.username}
+  ${answers.email}
 `;
 }
   
