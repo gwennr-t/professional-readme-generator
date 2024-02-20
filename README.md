@@ -2,7 +2,7 @@
 This is a README.md Generator. The user is prompted for information in the command-line about their application repository. The user inputs responses into the command line. These responses generate a README.md with the project title, and the following sections: Description, Table of Conntents, Installation, Usage, License, Contributing, Tests, and Questions.
 
 # Demo Video
-[Demo](https://drive.google.com/file/d/1VMQLX5Q9uekyggKlJLksjlnXoYml6hp1/view)
+[Demo](https://drive.google.com/file/d/1VMQLX5Q9uekyggKlJLksjlnXoYml6hp1/view?usp=sharing)
 
 # Credits
 This generator was made using JavaScript, Node.js, and Inquirer. Resources from class, Stack Overflow, and W3Schools were utilized to support creation as well. 
